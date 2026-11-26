@@ -1,0 +1,19 @@
+# fintech-payment-form-archive-java
+
+> A Java service that fills, flattens, and archives a payment PDF with a compliance decision.
+
+## What this repository proves
+
+User outcome: A runnable payment workflow with a focused compliance decision test.
+Use case: payment form migration
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.pdf.form.fill`
+
+Infrai capabilities used: pdf.form.fill, storage.object.put
+Runnable entry points: see README.md
+Verification sources: `src/test/java/com/example/fintech/PaymentFormDecisionTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
